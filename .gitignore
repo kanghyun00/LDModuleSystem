@@ -36,3 +36,7 @@ data/measurements/raw/
 
 # 버전 백업 파일
 *.backup
+
+# 백업 파일
+*.backup
+*.backup_*
