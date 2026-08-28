@@ -1,0 +1,10 @@
+PyQt5
+openpyxl
+pandas
+numpy
+matplotlib
+scipy
+xlsxwriter
+pyvisa
+pyvisa-py
+pyserial

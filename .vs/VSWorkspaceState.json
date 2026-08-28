@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\ldms",
+    "\\src\\ldms\\db",
+    "\\src\\ldms\\ui",
+    "\\src\\ldms\\ui\\tabs",
+    "\\src\\ldms\\ui\\tools",
+    "\\src\\ldms\\utils"
+  ],
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,13 @@
+빌드 명령어
+
+pyinstaller app.py --name LDModuleSystem_v3.3 --noconsole --clean --icon assets\company_logo.ico --collect-all matplotlib --collect-all scipy --collect-all pyvisa --hidden-import PyQt5.sip --hidden-import matplotlib.backends.backend_qt5agg --hidden-import scipy.signal --hidden-import scipy.integrate --hidden-import
+ pyvisa
+
+
+
+삭제 명령어
+
+Remove-Item -Recurse -Force .\build -ErrorAction SilentlyContinue
+Remove-Item -Recurse -Force .\dist -ErrorAction SilentlyContinue
+Remove-Item -Force .\LDModuleSystem.spec -ErrorAction SilentlyContinue
+
